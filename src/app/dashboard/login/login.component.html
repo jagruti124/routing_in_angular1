@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    
+    <form class="form">
+        <span class="input-span">
+        <label for="email" class="label">Email</label>
+        <input type="email" name="email" id="email"></span>
+        <span class="input-span">
+        <label for="password" class="label">Password</label>
+        <input type="password" name="password" id="password"></span>
+        <button class="mb-1" routerLink="forgetpassword"
+        routerLinkActiveOptions="{exact: true}">forget-password</button>
+        <input class="submit" type="submit" value="Log in">
+        <button class="mb-1" routerLink="signup" routerLinkActiveOptions="{exact: true}">Signup</button>
+      </form>
+
+</body>
+</html>
